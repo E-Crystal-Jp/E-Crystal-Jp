@@ -1,0 +1,64 @@
+    /* Basic Navigation Styles */
+    .navbar {
+        background-color: #333;
+        overflow: hidden;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+    
+    .navbar a:hover {
+        background-color: #555;
+    }
+    
+    .navbar a.active {
+        background-color: #4CAF50;
+    }
+    
+    /* Responsive Navigation */
+    .navbar .icon {
+        display: none;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .navbar a:not(.logo) {
+            display: none;
+        }
+        .navbar a.icon {
+            float: right;
+            display: block;
+        }
+        .navbar.responsive {
+            position: relative;
+        }
+        .navbar.responsive a.icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .navbar.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+    }
+    
+    /* Logo Styling */
+    .logo {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    /* Content area */
+    .content {
+        padding: 20px;
+    }
+</style>
