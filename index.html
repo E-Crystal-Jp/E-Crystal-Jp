@@ -3,107 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Crystal</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        
-        /* Basic Navigation Styles */
-        .navbar {
-            background-color: #333;
-            overflow: hidden;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        }
-        
-        .navbar a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            transition: background-color 0.3s;
-        }
-        
-        .navbar a:hover {
-            background-color: #555;
-        }
-        
-        .navbar a.active {
-            background-color: #4CAF50;
-        }
-        
-        /* Responsive Navigation */
-        .navbar .icon {
-            display: none;
-        }
-        
-        @media screen and (max-width: 600px) {
-            .navbar a:not(.logo) {
-                display: none;
-            }
-            .navbar a.icon {
-                float: right;
-                display: block;
-            }
-            .navbar.responsive {
-                position: relative;
-            }
-            .navbar.responsive a.icon {
-                position: absolute;
-                right: 0;
-                top: 0;
-            }
-            .navbar.responsive a {
-                float: none;
-                display: block;
-                text-align: left;
-            }
-        }
-        
-        /* Logo Styling */
-        .logo {
-            font-weight: bold;
-            font-size: 18px;
-        }
-        
-        /* Content area */
-        .content {
-            padding: 20px;
-        }
-    </style>
+    <title>Scrolling Menu with Linked Files</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation Menu -->
-    <div class="navbar" id="myNavbar">
-        <a href="#" class="logo">E-Crystal</a>
-        <a href="#" class="active">Home</a>
-        <a href="#products.html">Products</a>
-        <a href="#about">About</a>
-        <a href="#team">Team</a>
-        <a href="#contact">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">☰</a>
-    </div>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">YourStartup</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
     
-    <!-- Page Content -->
-    <div class="content">
-        <h1>Welcome to E-Crystal</h1>
-        <p>We are specialists in oxide and fluoride high-quality single crystals</p>
-    </div>
+    <!-- Main Content -->
+    <main>
+        <section id="home">
+            <h2>Welcome to YourStartup</h2>
+            <p>This is a demonstration of a scrolling menu with list items loaded from external files.</p>
+        </section>
+        
+        <section id="products">
+            <h2>Our Products</h2>
+            <!-- This div will be filled with product data from products.json -->
+            <div class="product-list" id="product-container"></div>
+        </section>
+        
+        <!-- Other sections -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>Services content would go here.</p>
+        </section>
+        
+        <section id="about">
+            <h2>About Us</h2>
+            <p>About content would go here.</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Contact information would go here.</p>
+        </section>
+    </main>
     
-    <!-- JavaScript for responsive menu -->
-    <script>
-        function toggleMenu() {
-            var navbar = document.getElementById("myNavbar");
-            if (navbar.className === "navbar") {
-                navbar.className += " responsive";
-            } else {
-                navbar.className = "navbar";
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
