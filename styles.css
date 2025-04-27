@@ -9,6 +9,13 @@ body {
     line-height: 1.6;
 }
 
+.top-menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it has a high z-index */
+}
+
 .scrolled-menu {
   position: relative;
   z-index: 10; /* Lower than the top menu */
