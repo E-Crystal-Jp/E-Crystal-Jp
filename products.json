@@ -4,7 +4,21 @@
       "id": 1,
       "name": "CeF3 Faraday rotators",
       "description": "Unique transparency in the UV-visible wavelength region with a high Verdet constant."
-      ![figure](https://github.com/E-Crystal-Jp/Menu/blob/main/Fig-CeF3-Trans_Verdet.pdf)     
+      
+      // Create a new anchor element
+const link = document.createElement('a');
+
+// Set the href attribute to the PDF file path
+link.href = 'https://github.com/E-Crystal-Jp/Menu/blob/main/Fig-CeF3-Trans_Verdet.pdf'; // Replace with your PDF file's path
+
+// Set the link text
+link.textContent = 'Open PDF';
+
+// Optionally, set the target to open in a new tab
+link.target = '_blank';
+
+// Append the link to a specific element on the page (e.g., a div with id="container")
+document.getElementById('container').appendChild(link);    
     },
     {
       "id": 2,
