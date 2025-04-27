@@ -42,6 +42,22 @@
             <h2>About Us</h2>
             <p>About content would go here.</p>
         </section>
+
+        <section id="customer-request">
+        <h2>Send Us Your Request</h2>
+        <form action="/send-request" method="POST" id="request-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Your Request:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Request</button>
+        </form>
+        </section>
         
         <section id="contact">
             <h2>Contact Us</h2>
