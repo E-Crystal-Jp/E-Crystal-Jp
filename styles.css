@@ -9,6 +9,11 @@ body {
     line-height: 1.6;
 }
 
+.scrolled-menu {
+  position: relative;
+  z-index: 10; /* Lower than the top menu */
+}
+
 /* Navigation */
 .navbar {
     background-color: #333;
