@@ -25,7 +25,8 @@ body {
 
 /* Navigation */
 .navbar {
-    background-color: #333;
+    /* background-color: #333; */
+    background-color: blue;
     color: white;
     position: fixed;
     top: 0;
