@@ -10,7 +10,8 @@
       },
       "imagePath1": "https://github.com/E-Crystal-Jp/Menu/blob/main/Images/Fig-CeF3-Trans_Verdet.jpg",
       "imagePath2": "https://raw.githubusercontent.com/E-Crystal-Jp/Menu/main/Images/Fig-CeF3-Trans_Verdet.jpg"
-    }, 
+    },
+    "htmlFile": "CeF3.html"
     {
       "id": 2,
       "name": "Tb<sub>3</sub>Sc<sub>2</sub>Al<sub>3</sub>O<sub>12</sub> (TSAG) Faraday rotators",
