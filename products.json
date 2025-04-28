@@ -8,8 +8,8 @@
                   "src": "Images/Photo-CeF3-Rods.jpg",
                   "alt": "Photograph of CeF<sub>3</sub> rods"
       },
-      "imagePath": "https://raw.githubusercontent.com/E-Crystal-Jp/Menu/main/Images/Photo-CeF3-Rods.jpg",
-      "imagePath": "https://raw.githubusercontent.com/E-Crystal-Jp/Menu/main/Images/Fig-CeF3-Trans_Verdet.pdf"
+      "imagePath1": "https://raw.githubusercontent.com/E-Crystal-Jp/Menu/main/Images/Photo-CeF3-Rods.jpg",
+      "imagePath2": "https://raw.githubusercontent.com/E-Crystal-Jp/Menu/main/Images/Fig-CeF3-Trans_Verdet.jpg"
     }, 
     {
       "id": 2,
