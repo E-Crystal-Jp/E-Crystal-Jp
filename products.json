@@ -4,8 +4,8 @@
       "id": 1,
       "name": "CeF<sub>3</sub> Faraday rotators",
       "description": "Single-crystals with a unique transparency in the UV-visible wavelength region with a high Verdet constant.",
+      "htmlFile": "CeF3.html"
     },
-    "htmlFile": "CeF3.html"
     {
       "id": 2,
       "name": "Tb<sub>3</sub>Sc<sub>2</sub>Al<sub>3</sub>O<sub>12</sub> (TSAG) Faraday rotators",
