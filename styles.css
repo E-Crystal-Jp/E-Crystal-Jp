@@ -19,7 +19,7 @@ body {
 
 .scrolled-menu {
   position: relative;
-  z-index: 10; /* Lower than the top menu */
+  z-index: 50; /* Lower than the top menu */
 }
 /* End: test to avoid menu overlap */
 
