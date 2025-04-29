@@ -71,5 +71,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Automatically rotate every 3 seconds
-    setInterval(rotateCarousel, 3000);
+    setInterval(rotateCarousel, 4000);
 });
