@@ -69,8 +69,8 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // Optional: Adjust animation duration dynamically based on number of images
-  const totalImages = carouselImages.querySelectorAll('img').length;
-  const animationDuration = totalImages * 5; // Example: 5s per image
+  //const totalImages = carouselImages.querySelectorAll('img').length;
+  //const animationDuration = totalImages * 5; // Example: 5s per image
 
   // Update animation with the calculated duration
   carouselImages.style.animation = `scroll-left ${animationDuration}s linear infinite`;
