@@ -18,8 +18,9 @@
         },
         {
             "id": 4,
-            "name": "Laser crystals",
-            "description": "High-quality fluoride and oxide single-crystal laser rods."
+            "name": "<a href=\"LiREF4.html\">Fluoride single-crystals</a>",
+            "description": "<a href=\"CeF3.html\">High-quality single-crystal fluorides.</a>",
+            "link": "LiREF4.html"
         }
     ]
 }
