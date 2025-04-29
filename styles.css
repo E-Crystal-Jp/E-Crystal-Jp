@@ -175,7 +175,7 @@ section h2 {
   height:200px;
 }
 /* Keyframe animation for moving images from right to left */
-@keyframes scrll-left {
+@keyframes scroll-left {
   0% {
     transform: translateX(100%); /* Start from the right */
   }
