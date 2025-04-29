@@ -167,7 +167,7 @@ section h2 {
 
 .carousel-images {
   display: flex;
-  animation: move-from-right 20s linear infinite; /* Continuous animation */
+  animation: scroll-left 20s linear infinite; /* Continuous animation */
 }
 
 .carousel-images img {
@@ -175,7 +175,7 @@ section h2 {
   height:200px;
 }
 /* Keyframe animation for moving images from right to left */
-@keyframes move-from-right {
+@keyframes scrll-left {
   0% {
     transform: translateX(100%); /* Start from the right */
   }
