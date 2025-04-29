@@ -2,11 +2,8 @@
   "products": [
     {
       "id": 1,
-      {
-      "type": "link",
-      "text": "CeF<sub>3</sub> Faraday rotators",
-      "url": "CeF3.html"
-      }    
+      "name": "CeF<sub>3</sub> Faraday rotators",
+      "description": "Single-crystals with a unique transparency in the UV-visible wavelength region with a high Verdet constant."
     },
     {
       "id": 2,
