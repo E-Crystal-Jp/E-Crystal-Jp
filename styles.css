@@ -76,7 +76,7 @@ header {
     width: 100%; /* Full width */
     background-color: #008080; /* Choose your desired color */
     color: white; /* Text color */
-    text-align: left; /* Left the text horizontally */
+    text-align: indent; /* Left the text horizontally */
     padding: 10px 0; /* Add some padding for height */
     margin: 0; /* Remove potential default margin */
 }
@@ -85,7 +85,7 @@ header {
 main {
     /* margin-top: 0;  Reduce or remove top margin */
     /* padding-top: 0;  Reduce or remove top padding */
-    margin-top: 70px;
+    margin-top: 10px;
     padding: 2rem;
 }
 
