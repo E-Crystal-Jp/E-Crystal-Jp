@@ -73,5 +73,5 @@ document.addEventListener('DOMContentLoaded', function () {
   //const animationDuration = totalImages * 5; // Example: 5s per image
 
   // Update animation with the calculated duration
-  carouselImages.style.animation = `scroll-left ${animationDuration}s linear infinite`;
+  //carouselImages.style.animation = `scroll-left ${animationDuration}s linear infinite`;
 });
