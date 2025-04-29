@@ -166,7 +166,7 @@ section h2 {
 
 .carousel-images {
   display: flex;
-  animation: move-from-right 3600s linear infinite; /* Continuous animation */
+  animation: move-from-right 60s linear infinite; /* Continuous animation */
 }
 
 .carousel-images img {
