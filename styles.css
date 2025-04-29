@@ -161,17 +161,17 @@ section h2 {
   position: relative;
   width: 100%; /* Full width */
   overflow: hidden; /* Hide overflowing content */
-  height: 200px; /* Set height based on your image size */
+  height: 150px; /* Set height based on your image size */
 }
 
 .carousel-images {
   display: flex;
-  animation: move-from-right 20s linear infinite; /* Continuous animation */
+  animation: move-from-right 3600s linear infinite; /* Continuous animation */
 }
 
 .carousel-images img {
   width: auto; /* Maintain aspect ratio */
-  height:200px;
+  height:150px;
 }
 /* Keyframe animation for moving images from right to left */
 @keyframes move-from-right {
