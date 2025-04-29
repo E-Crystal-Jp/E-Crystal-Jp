@@ -13,8 +13,9 @@
         },
         {
             "id": 3,
-            "name": "Phosphors",
-            "description": "High-brightness single-crystal phosphors for lighting and industrial detectors."
+            "name": "<a href=\"Phosphors.html\">Single-crystal PHOSPHORS</a>",
+            "description": "<a href=\"Fluorides.html\">High-brightness single-crystal phosphors for lighting and industrial detectors.</a>",
+            "link": "Phosphors.html"
         },
         {
             "id": 4,
