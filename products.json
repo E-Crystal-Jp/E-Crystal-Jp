@@ -2,7 +2,7 @@
     "products": [
         {
             "id": 1,
-            "name": "<a href=\"CeF3.html\" style=\"text-decoration: none;\">CeF<sub>3</sub> Faraday rotators</a>",
+            "name": "<a href=\"CeF3.html\">CeF<sub>3</sub> Faraday rotators</a>",
             "description": "<a href=\"CeF3.html\" style=\"text-decoration: none;\">Single-crystals with a unique transparency in the UV-visible wavelength region with a high Verdet constant.</a>",
             "link": "CeF3.html"
         },
