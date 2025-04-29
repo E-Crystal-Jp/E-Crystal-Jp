@@ -162,7 +162,6 @@ section h2 {
   width: 100%; /* Full width */
   overflow: hidden; /* Hide overflowing content */
   height: 200px; /* Set height based on your image size */
-  background-color: #000; /* Optional background color */
 }
 
 .carousel-images {
