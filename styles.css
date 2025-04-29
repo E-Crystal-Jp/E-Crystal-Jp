@@ -166,11 +166,20 @@ section h2 {
 
 .carousel-images {
   display: flex;
-  transition: transform 5s ease-in-out;
+  animation: scroll-left 10s linear infinite; /* Animation duration and looping */
 }
 
 .carousel-images img {
   height:200px;
+}
+/* Keyframe for scrolling effect */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 /* End: Container for carousel images */
 
