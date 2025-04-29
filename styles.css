@@ -9,6 +9,10 @@ body {
     line-height: 1.6;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Begin: test to avoid menu overlap */
 .top-menu {
   position: fixed;
