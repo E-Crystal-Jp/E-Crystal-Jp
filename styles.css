@@ -71,7 +71,7 @@ a:hover {
 }
 
 /* Ensure the header spans the full width */
-header {
+head {
     width: 100%; /* Full width */
     background-color: #3498db; /* Choose your desired color */
     color: white; /* Text color */
