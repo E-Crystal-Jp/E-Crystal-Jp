@@ -56,3 +56,20 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Add this inside the DOMContentLoaded event listener, carousel
+document.addEventListener('DOMContentLoaded', function() {
+    let currentIndex = 0;
+
+    function rotateCarousel() {
+        const carouselImages = document.querySelector('.carousel-images');
+        const images = document.querySelectorAll('.carousel-images img');
+        if (!carouselImages || images.length === 0) return; // Exit if carousel does not exist
+
+        currentIndex = (currentIndex + 1) % images.length; // Loop back to the first image
+        carouselImages.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+
+    // Automatically rotate every 3 seconds
+    setInterval(rotateCarousel, 3000);
+});
