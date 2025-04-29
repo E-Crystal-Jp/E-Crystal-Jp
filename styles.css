@@ -159,27 +159,28 @@ section h2 {
 /* Container for carousel images */
 .carousel {
   position: relative;
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
+  width: 100%; /* Full width */
+  overflow: hidden; /* Hide overflowing content */
+  height: 300px; /* Set height based on your image size */
+  background-color: #000; /* Optional background color */
 }
 
 .carousel-images {
   display: flex;
-  animation: scroll-left 15s linear infinite; /* Animation duration and looping */
+  animation: move-from-right 20s linear infinite; /* Continuous animation */
 }
 
 .carousel-images img {
   width: auto; /* Maintain aspect ratio */
   height:200px;
 }
-/* Keyframe for scrolling effect */
-@keyframes scroll-left {
+/* Keyframe animation for moving images from right to left */
+@keyframes move-from-right {
   0% {
-    transform: translateX(0%);
+    transform: translateX(100%); /* Start from the right */
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-100%); /* Move to the left */
   }
 }
 /* End: Container for carousel images */
