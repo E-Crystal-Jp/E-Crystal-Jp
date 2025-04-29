@@ -1,27 +1,25 @@
 {
-  "products": [
-    {
-      "id": 1
-      {
-      "name": "CeF<sub>3</sub> Faraday rotators",
-      "description": "Single-crystals with a unique transparency in the UV-visible wavelength region with a high Verdet constant."
-      }
-      "link": "CeF3.html"
-    },
-    {
-      "id": 2,
-      "name": "Tb<sub>3</sub>Sc<sub>2</sub>Al<sub>3</sub>O<sub>12</sub> (TSAG) Faraday rotators",
-      "description": "High-quality single-crystals for high-power optical isolators in the visible and near IR."
-    },
-    {
-      "id": 3,
-      "name": "Phosphors",
-      "description": "High-brightness single-crystal phosphors for lighting and industrial detectors."
-    },
-    {
-      "id": 4,
-      "name": "Laser crystals",
-      "description": "High-quality fluoride and oxide single-crystal laser rods."
-    }
-  ]
+    "products": [
+        {
+            "id": 1,
+            "name": "CeF<sub>3</sub> Faraday rotators",
+            "description": "Single-crystals with a unique transparency in the UV-visible wavelength region with a high Verdet constant.",
+            "link": "CeF3.html"
+        },
+        {
+            "id": 2,
+            "name": "Tb<sub>3</sub>Sc<sub>2</sub>Al<sub>3</sub>O<sub>12</sub> (TSAG) Faraday rotators",
+            "description": "High-quality single-crystals for high-power optical isolators in the visible and near IR."
+        },
+        {
+            "id": 3,
+            "name": "Phosphors",
+            "description": "High-brightness single-crystal phosphors for lighting and industrial detectors."
+        },
+        {
+            "id": 4,
+            "name": "Laser crystals",
+            "description": "High-quality fluoride and oxide single-crystal laser rods."
+        }
+    ]
 }
