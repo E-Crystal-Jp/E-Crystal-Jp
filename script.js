@@ -57,19 +57,21 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Add this inside the DOMContentLoaded event listener, carousel
-document.addEventListener('DOMContentLoaded', function() {
-    let currentIndex = 0;
+//Endless carousel
+document.addEventListener('DOMContentLoaded', function () {
+  const carouselImages = document.querySelector('.carousel-images');
+  const images = document.querySelectorAll('.carousel-images img');
 
-    function rotateCarousel() {
-        const carouselImages = document.querySelector('.carousel-images');
-        const images = document.querySelectorAll('.carousel-images img');
-        if (!carouselImages || images.length === 0) return; // Exit if carousel does not exist
+  // Duplicate images for infinite scroll effect
+  images.forEach((image) => {
+    const clone = image.cloneNode(true);
+    carouselImages.appendChild(clone);
+  });
 
-        currentIndex = (currentIndex + 1) % images.length; // Loop back to the first image
-        carouselImages.style.transform = `translateX(-${currentIndex * 100}%)`;
-    }
+  // Optional: Adjust animation duration dynamically based on number of images
+  const totalImages = carouselImages.querySelectorAll('img').length;
+  const animationDuration = totalImages * 5; // Example: 5s per image
 
-    // Automatically rotate every 3 seconds
-    setInterval(rotateCarousel, 4000);
+  // Update animation with the calculated duration
+  carouselImages.style.animation = `scroll-left ${animationDuration}s linear infinite`;
 });
