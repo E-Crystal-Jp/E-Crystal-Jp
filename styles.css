@@ -72,10 +72,10 @@ a:hover {
 
 /* Scrolling content area */
 main {
-    margin-top: 0; /* Reduce or remove top margin */
-    padding-top: 0; /* Reduce or remove top padding */
-    /* margin-top: 70px; */
-    /* padding: 2rem; */
+    /* margin-top: 0;  Reduce or remove top margin */
+    /* padding-top: 0;  Reduce or remove top padding */
+    margin-top: 70px;
+    padding: 2rem;
 }
 
 section {
