@@ -156,6 +156,32 @@ section h2 {
     background: #555;
 }
 
+/* Container for scrolling images */
+.rotating-image {
+    display: flex;
+    overflow: hidden; /* Ensures images are clipped when they move out of view */
+    white-space: nowrap;
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    height: 200px; /* Adjust height as needed */
+}
+
+.rotating-image img {
+    display: inline-block;
+    animation: scroll-left 10s linear infinite; /* Adjust duration as needed */
+    height: 100%; /* Ensures images fit within the height of the container */
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+/* End: Container for scrolling images */
+
 footer {
     margin-left: 20px; /* Adjust the value to control the indent */
 }
