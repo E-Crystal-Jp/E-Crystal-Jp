@@ -74,9 +74,9 @@ a:hover {
 header {
     width: 100%; /* Full width */
     background-color: #08080; /* Choose your desired color */
-    color: orange; /* Text color */
+    color: white; /* Text color */
     text-align: left; /* Left the text horizontally */
-    padding: 0px 0; /* Add some padding for height */
+    padding: 10px 0; /* Add some padding for height */
     margin: 0; /* Remove potential default margin */
 }
 
