@@ -7,8 +7,6 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin-top: 0; /* Reduce or remove top margin */
-    padding-top: 0; /* Reduce or remove top padding */
 }
 
 a {
@@ -74,8 +72,10 @@ a:hover {
 
 /* Scrolling content area */
 main {
-    margin-top: 70px;
-    padding: 2rem;
+    margin-top: 0; /* Reduce or remove top margin */
+    padding-top: 0; /* Reduce or remove top padding */
+    /* margin-top: 70px; */
+    /* padding: 2rem; */
 }
 
 section {
