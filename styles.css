@@ -10,7 +10,12 @@ body {
 }
 
 a {
-    text-decoration: none;
+    color: inherit; /* Keeps the link's original color */
+    text-decoration: none; /* Optional: Removes underline */
+}
+
+a:hover {
+    color: #4CAF50; /* Changes the color when the mouse hovers */
 }
 
 /* Begin: test to avoid menu overlap */
