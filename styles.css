@@ -75,8 +75,8 @@ header {
     width: 100%; /* Full width */
     background-color: #08080; /* Choose your desired color */
     color: white; /* Text color */
-    text-align: center; /* Center the text horizontally */
-    padding: 20px 0; /* Add some padding for height */
+    text-align: left; /* Left the text horizontally */
+    padding: 0px 0; /* Add some padding for height */
     margin: 0; /* Remove potential default margin */
 }
 
