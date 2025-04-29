@@ -6,14 +6,7 @@
       "type": "link",
       "text": "CeF<sub>3</sub> Faraday rotators",
       "url": "CeF3.html"
-      }
-    /*  "name": "CeF<sub>3</sub> Faraday rotators",
-      "description": "Single-crystals with a unique transparency in the UV-visible wavelength region with a high Verdet constant.",
-      "image": {
-        "src": "Images/Photo_CeF3_Rods.jpg",
-        "alt": "Photograph of CeF3 rods"
-      },
-      "htmlFile": "CeF3.html" */
+      }    
     },
     {
       "id": 2,
