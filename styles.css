@@ -173,11 +173,6 @@ section h2 {
   width: auto; /* Maintain aspect ratio */
   height:150px;
 }
-
-.carousel-item {
-  display: inline-block;
-  white-space: nowrap;
-}
 /* Keyframe animation for moving images from right to left */
 @keyframes scroll {
   0% {
