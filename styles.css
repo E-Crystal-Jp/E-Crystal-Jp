@@ -158,28 +158,23 @@ section h2 {
 
 /* Container for carousel images */
 .carousel {
-  position: relative;
-  width: 100%; /* Full width */
-  overflow: hidden; /* Hide overflowing content */
-  height: 150px; /* Set height based on your image size */
-}
-
-.carousel-images {
   display: flex;
-  animation: move-from-right 600s linear infinite; /* Continuous animation */
+  overflow: hidden;
+  white-space: nowrap;
+  animation: scroll 10s linear infinite; /* Adjust speed */
 }
 
-.carousel-images img {
-  width: auto; /* Maintain aspect ratio */
-  height:150px;
+.carousel-item {
+  display: inline-block;
+  white-space: nowrap;
 }
-/* Keyframe animation for moving images from right to left */
-@keyframes move-from-right {
+
+@keyframes scroll {
   0% {
-    transform: translateX(100%); /* Start from the right */
+    transform: translateX(0%);
   }
   100% {
-    transform: translateX(-100%); /* Move to the left */
+    transform: translateX(-50%); /* Adjust based on content width */
   }
 }
 /* End: Container for carousel images */
